@@ -1,0 +1,32 @@
+{
+  "name": "linetest.rtc.io",
+  "version": "1.0.0",
+  "description": "A simple test page for testing end-to-end webrtc connectivity, providing information on whether STUN and/or TURN must be used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "beefy index.js:bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtc.io/linetest.rtc.io.git"
+  },
+  "keywords": [
+    "rtc.io",
+    "linetest"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@nicta.com.au>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/rtc.io/linetest.rtc.io/issues"
+  },
+  "homepage": "https://github.com/rtc.io/linetest.rtc.io",
+  "dependencies": {
+    "cuid": "^1.2.4",
+    "mercury": "^14.0.0",
+    "normalice": "^1.0.1",
+    "rtc-quickconnect": "^4.1.2",
+    "rtc-signaller": "^5.2.2",
+    "rtc-switchboard-messenger": "^1.0.0"
+  }
+}
