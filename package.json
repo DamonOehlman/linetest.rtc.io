@@ -28,6 +28,6 @@
     "normalice": "^1.0.1",
     "rtc-quickconnect": "^4.1.2",
     "rtc-signaller": "^5.2.2",
-    "rtc-switchboard-messenger": "^1.0.0"
+    "rtc-switchboard-messenger": "^2.0.0"
   }
 }
